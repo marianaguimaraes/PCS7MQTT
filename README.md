@@ -1,4 +1,4 @@
-# PCS7MQTT
+# PCS7 Arduino and MQTT
 
 Project by communicate a Arduino to Siemens PCS7 PLC and publish/subcribe values by MQTT protocol
 
