@@ -1,6 +1,6 @@
 # PCS7MQTT
 
-Using lib Settimino, but with changes - in repository
+Using lib PubSubClient and Settimino, but Settimino with changes - in repository
 
 Set the IP's
 
