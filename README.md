@@ -1,5 +1,7 @@
 # PCS7MQTT
 
+Project by communicate a Arduino to Siemens PCS7 PLC and publish/subcribe values by MQTT protocol
+
 Using lib PubSubClient and Settimino, but Settimino with changes - in repository
 
 Set the IP's
