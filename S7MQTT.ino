@@ -3,30 +3,24 @@
 #include <PubSubClient.h>
 #define DO_IT_SMALL
 
-IPAddress Local(192, 168, 43, 8); // Local Address
-IPAddress Gateway(192, 168, 43, 238);
-IPAddress Subnet(255, 255, 255, 0);
+IPAddress Local(XXX, XXX, XXX, XXX); // Local Address
 
-IPAddress PLC(192, 168, 43, 32); // PLC Address
+IPAddress PLC(XXX, XXX, XXX, XXX); // PLC Address
 int DBNum = 111; // This DB must be present in your PLC
 byte Buffer[4];
 S7Client Clients;
 
-char ssid[] = "Mariana CSP";    // Your network SSID (name)
-char pass[] = "244466666";  // Your network password (if any)
-//const char* mqtt_server = "broker.mqtt-dashboard.com";
-//const char* mqtt_server = "farm.cloudmqtt.com";
-const char* mqtt_server = "maqiatto.com";
-const char* topicIn = "guimaraes.mariana@msn.com/Reset";
-const char* topicOut = "guimaraes.mariana@msn.com/Temp";
-//const char* topicOut = "outTopic";
-//const char* topicIn = "inTopic";
-//const char* user = "pzqbqehw";
-//const char* pw = "lqI7oDuJJLjj";
-//int port = 14722;
-const char* user = "guimaraes.mariana@msn.com";
-const char* pw = "arduinos7";
+char ssid[] = "XXXXXXXXXXXX";    // Your network SSID (name)
+char pass[] = "XXXXXXXXXXXX";  // Your network password (if any)
+
+const char* mqtt_server = "XXXX";
+const char* topicIn = "XXX";
+const char* topicOut = "XXX";
+
+const char* user = "XXXX";
+const char* pw = "XXX";
 int port = 1883;
+
 WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg = 0;
